@@ -1,5 +1,4 @@
 import { Command } from './types/Command';
-import { catToken } from '../config.json';
 import fetch, { Headers } from 'node-fetch';
 
 const cat: Command = {
@@ -15,7 +14,7 @@ const cat: Command = {
 const catApiURL = 'https://api.thecatapi.com/v1/images/search';
 const meta = {
   'Content-Type': 'application/json',
-  'x-api-key': catToken,
+  'x-api-key': process.env.CAT_TOKEN!,
 };
 const headers = new Headers(meta);
 
