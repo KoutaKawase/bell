@@ -5,7 +5,6 @@ import dotenv from 'dotenv';
 
 dotenv.config({ path: '../.env' });
 const prefix = process.env.PREFIX!;
-console.log(prefix);
 const client = new Discord.Client();
 client.commands = new Discord.Collection<string, Command>();
 const commandFiles = readdirSync('./commands').filter((file) =>
