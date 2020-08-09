@@ -18,10 +18,10 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.7"
+    "ts-node": "^8.10.2"
   },
   "dependencies": {
+    "typescript": "^3.9.7",
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.0"
