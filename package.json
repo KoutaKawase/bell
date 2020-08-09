@@ -7,7 +7,7 @@
     "fmt": "eslint --fix src/",
     "start": "cd dist && node app.js",
     "build": "tsc",
-    "heroku-prebuild": "tsc"
+    "postinstall": "yarn build"
   },
   "devDependencies": {
     "@types/node": "^14.0.27",
