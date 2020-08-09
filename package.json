@@ -4,7 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "fmt": "eslint --fix src/"
+    "fmt": "eslint --fix src/",
+    "start": "cd dist && node app.js",
+    "build": "tsc",
+    "heroku-postbuild": "tsc"
   },
   "devDependencies": {
     "@types/node": "^14.0.27",
