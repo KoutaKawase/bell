@@ -6,8 +6,7 @@
   "scripts": {
     "fmt": "eslint --fix src/",
     "start": "cd dist && node app.js",
-    "build": "tsc",
-    "postinstall": "yarn build"
+    "build": "tsc"
   },
   "engines":{
     "node": "12.x"
