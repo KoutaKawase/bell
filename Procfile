@@ -1,1 +1,1 @@
-worker: cd dist && node app.js
+worker: yarn start
